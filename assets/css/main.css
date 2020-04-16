@@ -2089,6 +2089,10 @@ input, select, textarea {
 			color: #76ddff;
 		}
 
+		.icon.live-site {
+			margin-left: 4em;
+		}
+
 /* Image */
 
 	.image {
@@ -3996,4 +4000,8 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	.icon {
+
 	}
