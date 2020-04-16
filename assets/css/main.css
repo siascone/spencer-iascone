@@ -72,6 +72,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
+#one > div > a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2043,6 +2052,12 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: x-large;
+		}
+
+		.icon.brands.small:before {
+			font-family: 'Font Awesome 5 Brands';
+			font-size: large;
 		}
 
 		.icon.major {
@@ -3888,8 +3903,13 @@ input, select, textarea {
 
 /* Footer */
 
+	/* .contact {
+		font-family: Helvetica, sans-serif;
+		color: gray;
+	} */
+
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 3em 0 2em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
