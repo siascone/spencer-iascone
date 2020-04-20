@@ -3903,10 +3903,34 @@ input, select, textarea {
 
 /* Footer */
 
-	/* .contact {
-		font-family: Helvetica, sans-serif;
-		color: gray;
-	} */
+	.contact {
+		display: flex;
+		justify-content: center;
+	}
+
+	.email-resume {
+		display: flex;
+	}
+
+	.email-resume a {
+		padding:  0 10px 0 10px;
+	}
+
+	.email {
+		border-right: solid 1px;
+	}
+
+
+	.resume, .email {
+		border-bottom: none;
+		cursor: pointer;
+		/* border-left: 1px solid; */
+	}
+
+	.email-resume a:hover {
+		text-decoration: underline;
+	}
+
 
 	#footer {
 		padding: 3em 0 2em 0 ;
