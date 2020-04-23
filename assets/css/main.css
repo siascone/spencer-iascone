@@ -3927,6 +3927,14 @@ input, select, textarea {
 		/* border-left: 1px solid; */
 	}
 
+	/* .resume, .email:hover {
+		text-decoration: underline;
+	} */
+
+	/* .inner > .major > p > a :hover {
+		border-bottom: 1px solid white;
+	} */
+
 	.email-resume a:hover {
 		text-decoration: underline;
 	}
